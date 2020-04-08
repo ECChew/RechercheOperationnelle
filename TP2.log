@@ -1,13 +1,13 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  8 APR 2020 13:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  8 APR 2020 13:50
 entering extended mode
-**./TP1.tex
-(TP1.tex
+**./TP2.tex
+(TP2.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14>
 ("D:\Program Files\MiKTeX 2.9\tex/latex/base\report.cls"
 Document Class: report 2019/12/20 v1.4l Standard LaTeX document class
-("D:\Program Files\MiKTeX 2.9\tex/latex/base\size12.clo"
-File: size12.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+("D:\Program Files\MiKTeX 2.9\tex/latex/base\size10.clo"
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
 )
 \c@part=\count167
 \c@chapter=\count168
@@ -1128,7 +1128,7 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \@float@every@listing=\toks57
 \c@listing=\count351
 )
-runsystem(if not exist _minted-TP1 mkdir _minted-TP1)...executed.
+runsystem(if not exist _minted-TP2 mkdir _minted-TP2)...executed.
 
 \c@definition=\count352
 \c@theoreme=\count353
@@ -1266,10 +1266,10 @@ Package xr-hyper Warning: Load package `hyperref' after `xr-hyper'.
 
 )
 \@indexfile=\write6
-\openout6 = `TP1.idx'.
+\openout6 = `TP2.idx'.
 
 
-Writing index file TP1.idx
+Writing index file TP2.idx
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/glossaries/base\glossaries
 .sty
@@ -1455,9 +1455,9 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 ))
 \glswrite=\write7
 \glo@main@file=\write8
-\openout8 = `TP1.glo'.
+\openout8 = `TP2.glo'.
 
-Package glossaries Info: Writing glossary file TP1.glo on input line 188.
+Package glossaries Info: Writing glossary file TP2.glo on input line 188.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/lipsum\lipsum.sty
 ("D:\Program Files\MiKTeX 2.9\tex/latex/l3kernel\expl3.sty"
@@ -1481,17 +1481,17 @@ Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 File: lipsum.ltd.tex 2019/01/02 v2.2 The Lorem ipsum dummy text
 ))
 runsystem(for ^%i in (pygmentize.exe pygmentize.bat pygmentize.cmd) do set > TP
-1.aex <nul: /p x=^%~$PATH:i>> TP1.aex)...executed.
+2.aex <nul: /p x=^%~$PATH:i>> TP2.aex)...executed.
 
-runsystem(del TP1.aex)...executed.
+runsystem(del TP2.aex)...executed.
 
 
 
 LaTeX Warning: Unused global option(s):
     [calibri].
 
-(TP1.aux)
-\openout1 = `TP1.aux'.
+(TP2.aux)
+\openout1 = `TP2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 195.
 LaTeX Font Info:    ... okay on input line 195.
@@ -1522,19 +1522,19 @@ LaTeX Font Info:    ... okay on input line 195.
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=460.72124pt
-* \textheight=621.0pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
+* \textwidth=424.58624pt
+* \textheight=646.0pt
+* \oddsidemargin=18.06749pt
+* \evensidemargin=18.06749pt
 * \topmargin=0.0pt
 * \headheight=12.0pt
 * \headsep=5.0pt
-* \topskip=12.0pt
+* \topskip=10.0pt
 * \footskip=30.0pt
 * \marginparwidth=54.2025pt
 * \marginparsep=10.0pt
 * \columnsep=42.67912pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=-54.2025pt
 * \mag=1000
@@ -1596,35 +1596,60 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 195.
 LaTeX Info: Redefining \pageref on input line 195.
 LaTeX Info: Redefining \nameref on input line 195.
- (TP1.out) (TP1.out)
+ (TP2.out) (TP2.out)
 \@outlinefile=\write9
-\openout9 = `TP1.out'.
+\openout9 = `TP2.out'.
 
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 204
+.
 
-Overfull \hbox (7.4578pt too wide) in paragraph at lines 202--203
-[]\T1/cmr/m/n/12 https://arxiv.org/pdf/cs/0111050.pdf 
+("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 204
+.
+
+("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
+4.
+
+(C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
+204.
+
+(C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/calrsfs\omsrsfs.fd)
+Underfull \hbox (badness 1983) in paragraph at lines 204--205
+\T1/cmr/m/n/10 pop-u-la-tions but some-times have dou-ble
  []
 
 
-Overfull \hbox (22.33334pt too wide) in paragraph at lines 203--204
-[]\T1/cmr/m/n/12 https://glossary.informs.org/notes/Klee-
+Underfull \hbox (badness 10000) in paragraph at lines 204--205
+
  []
+
+
+Overfull \hbox (16.02173pt too wide) in paragraph at lines 217--324
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
 
 
 AED: lastpage setting LastPage
-
-Package Fancyhdr Warning: \headheight is too small (12.0pt): 
-Make it at least 14.49998pt.
-We now make it that large for the rest of the document.
-This may cause the page layout to be inconsistent, however.
-
 [1{C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-\openout7 = `TP1.xdy'.
+\openout7 = `TP2.xdy'.
 
+] [2
 
 ]
 
@@ -1632,30 +1657,37 @@ Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 207.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 207.
-(TP1.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 207.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 207.
-Package rerunfilecheck Info: File `TP1.out' has not changed.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+(TP2.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package rerunfilecheck Info: File `TP2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 207.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
  ) 
 Here is how much of TeX's memory you used:
- 44009 strings out of 481556
- 993608 string characters out of 2923634
- 1649107 words of memory out of 3000000
- 58374 multiletter control sequences out of 15000+200000
- 535203 words of font info for 30 fonts, out of 3000000 for 9000
+ 44099 strings out of 481556
+ 995113 string characters out of 2923634
+ 1667078 words of memory out of 3000000
+ 58423 multiletter control sequences out of 15000+200000
+ 541719 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,11n,136p,1008b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
-tcrm1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
-ec/dpi600\ecbx1200.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecrm1200.pk>
-Output written on TP1.pdf (1 page, 25067 bytes).
+ecbx1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
+ec/dpi600\ecbx1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecrm1000.pk><D:/Program Files/MiKTeX 2.9/fonts/type1/public
+/amsfonts/cm/cmex10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfont
+s/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
+:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+Output written on TP2.pdf (2 pages, 111761 bytes).
 PDF statistics:
- 91 PDF objects out of 1000 (max. 8388607)
- 2 named destinations out of 1000 (max. 500000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 9 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
