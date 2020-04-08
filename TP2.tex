@@ -217,115 +217,151 @@ By doing this, we will do some kind of pre-conditioning which will make our resu
 \begin{table}[H]
 	\begin{tabular}{|c|c|c|}
 	\hline
-	\cellcolor{gray!30} State & \cellcolor{gray!30} Population&\cellcolor{gray!30} Number of members\\
+	\cellcolor{gray!30} State & \cellcolor{gray!30} Population&\cellcolor{gray!30}\shortstack{Members in\\ Electoral College}\\
 	\hline
-	AL & &\\
+	AL & &9\\
 	\hline
-	AK & &\\
+	AK & &1\\
 	\hline
-	AZ & &\\
+	AZ & &12\\
 	\hline
-	AR & &\\
+	AR & &5\\
 	\hline
-	CA & &\\
+	CA & &49\\
 	\hline
-	CO & &\\
+	CO & &10\\
 	\hline
-	CT & &\\
+	CT & &6\\
 	\hline
-	DE & &\\
+	DE & &1\\
 	\hline
-	DC & &\\
+	DC & &1\\
 	\hline
-	FL & &\\
+	FL & &37\\
 	\hline
-	GA & &\\
+	GA & &17\\
 	\hline
-	HD & &\\
+	HI & &2\\
 	\hline
-	ID & &\\
+	ID & &2\\
 	\hline
-	IL & &\\
+	IL & &22\\
 	\hline
-	IN & &\\
+	IN & &12\\
 	\hline
-	IA & &\\
+	IA & &5\\
 	\hline
-	KS & &\\
+	KS & &5\\
 	\hline
-	KY & &\\
+	KY & &8\\
 	\hline
-	LA & &\\
+	LA & &8\\
 	\hline
-	ME & &\\
+	ME & &2\\
 	\hline
-	MD & &\\
+	MD & &10\\
 	\hline
-	MA & &\\
+	MA & &12\\
 	\hline
-	MI & &\\
+	MI & &18\\
 	\hline
-	MN & &\\
+	MN & &10\\
 	\hline
-	MS & &\\
+	MS & &5\\
 	\hline
-	MO & &\\
+	MO & &11\\
 	\hline
-	MT & &\\
+	MT & &2\\
 	\hline
-	NE & &\\
+	NE & &3\\
 	\hline
-	NV & &\\
+	NV & &4\\
 	\hline
-	NH & &\\
+	NH & &2\\
 	\hline
-	NJ & &\\
+	NJ & &15\\
 	\hline
-	NM & &\\
+	NM & &3\\
 	\hline
-	NY & &\\
+	NY & &34\\
 	\hline
-	NC & &\\
+	NC & &18\\
 	\hline
-	ND & &\\
+	ND & &1\\
 	\hline
-	OH & &\\
+	OH & &22\\
 	\hline
-	OK & &\\
+	OK & &7\\
 	\hline
-	OR & &\\
+	OR & &7\\
 	\hline
-	PA & &\\
+	PA & &24\\
 	\hline
-	RI & &\\
+	RI & &2\\
 	\hline
-	SC & &\\
+	SC & &9\\
 	\hline
-	SD & &\\
+	SD & &1\\
 	\hline
-	TN & &\\
+	TN & &12\\
 	\hline
-	TX & &\\
+	TX & &44\\
 	\hline
-	UT & &\\
+	UT & &5\\
 	\hline
-	VT & &\\
+	VT & &1\\
 	\hline
-	VA & &\\
+	VA & &15\\
 	\hline
-	WA & &\\
+	WA & &13\\
 	\hline
-	WV & &\\
+	WV & &3\\
 	\hline
-	WI & &\\
+	WI & &10\\
 	\hline
-	WY & &\\
+	WY & &1\\
 	\hline
 	\end{tabular}
 \end{table}
 
 
 \section*{US Maps}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{mapCurrentEligible}
+	\caption{Current distribution : $\frac{\alpha_{real,eligible_i}}{x_i}$}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{mapEligibleBase}
+	\caption{Distribution without conditioning - Eligible voters only}
+\end{figure}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\linewidth]{mapEligibleImproved}
+	\caption{Distribution with conditioning - Eligible voters only}
+\end{figure}
+
+\begin{figure}[H]
+	\vspace*{1.8cm}
+	\centering
+	\includegraphics[width=\linewidth]{mapCurrentTotal}
+	\caption{Current distribution : $\frac{\alpha_{real,total_i}}{x_i}$}
+\end{figure}
+\begin{figure}[H]
+	\vspace*{0.3cm}
+
+	\centering
+	\includegraphics[width=\linewidth]{mapTotalBase}
+	\caption{Distribution without conditioning - Whole population}
+\end{figure}
+\begin{figure}[H]
+	\vspace*{0.5cm}
+	\centering
+	\includegraphics[width=\linewidth]{mapTotalImproved}
+	\caption{Distribution with conditioning - Whole population}
+\end{figure}
 
 
 \end{document}

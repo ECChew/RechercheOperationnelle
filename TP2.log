@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  8 APR 2020 13:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  8 APR 2020 19:26
 entering extended mode
 **./TP2.tex
 (TP2.tex
@@ -1603,77 +1603,110 @@ LaTeX Info: Redefining \nameref on input line 195.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 204
+LaTeX Font Info:    Trying to load font information for U+msa on input line 205
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 204
+LaTeX Font Info:    Trying to load font information for U+msb on input line 205
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
-4.
+5.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-204.
+205.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/calrsfs\omsrsfs.fd)
-Underfull \hbox (badness 1983) in paragraph at lines 204--205
+Underfull \hbox (badness 1983) in paragraph at lines 205--206
 \T1/cmr/m/n/10 pop-u-la-tions but some-times have dou-ble
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 204--205
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
- []
-
-
-Overfull \hbox (16.02173pt too wide) in paragraph at lines 217--324
-[][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
+Overfull \vbox (7.57413pt too high) has occurred while \output is active []
 
-AED: lastpage setting LastPage
+
 [1{C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 \openout7 = `TP2.xdy'.
 
-] [2
-
 ]
+<mapCurrentEligible.png, id=29, 642.4pt x 481.8pt>
+File: mapCurrentEligible.png Graphic file (type png)
+<use mapCurrentEligible.png>
+Package pdftex.def Info: mapCurrentEligible.png  used on input line 332.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+<mapEligibleBase.png, id=30, 642.4pt x 481.8pt>
+File: mapEligibleBase.png Graphic file (type png)
+<use mapEligibleBase.png>
+Package pdftex.def Info: mapEligibleBase.png  used on input line 337.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+<mapEligibleImproved.png, id=31, 642.4pt x 481.8pt>
+File: mapEligibleImproved.png Graphic file (type png)
+<use mapEligibleImproved.png>
+Package pdftex.def Info: mapEligibleImproved.png  used on input line 342.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+<mapCurrentTotal.png, id=32, 642.4pt x 481.8pt>
+File: mapCurrentTotal.png Graphic file (type png)
+<use mapCurrentTotal.png>
+Package pdftex.def Info: mapCurrentTotal.png  used on input line 349.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+<mapTotalBase.png, id=33, 642.4pt x 481.8pt>
+File: mapTotalBase.png Graphic file (type png)
+<use mapTotalBase.png>
+Package pdftex.def Info: mapTotalBase.png  used on input line 356.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+
+Underfull \vbox (badness 3668) has occurred while \output is active []
+
+<mapTotalImproved.png, id=34, 642.4pt x 481.8pt>
+File: mapTotalImproved.png Graphic file (type png)
+<use mapTotalImproved.png>
+Package pdftex.def Info: mapTotalImproved.png  used on input line 362.
+(pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
+
+
+AED: lastpage setting LastPage
+[2 <./mapCurrentEligible.png (PNG copy)> <./mapEligibleBase.png (PNG copy)> <./
+mapEligibleImproved.png (PNG copy)> <./mapCurrentTotal.png (PNG copy)> <./mapTo
+talBase.png (PNG copy)> <./mapTotalImproved.png (PNG copy)>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 330.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 330.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
 (TP2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 330.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 330.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
 Package rerunfilecheck Info: File `TP2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 330.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
  ) 
 Here is how much of TeX's memory you used:
- 44099 strings out of 481556
- 995113 string characters out of 2923634
- 1667078 words of memory out of 3000000
- 58423 multiletter control sequences out of 15000+200000
+ 44162 strings out of 481556
+ 996332 string characters out of 2923634
+ 1668078 words of memory out of 3000000
+ 58478 multiletter control sequences out of 15000+200000
  541719 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,11n,136p,1008b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 78i,14n,136p,1008b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
 ecbx1440.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/
 ec/dpi600\ecbx1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
@@ -1685,9 +1718,9 @@ i5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
  Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/
 fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on TP2.pdf (2 pages, 111761 bytes).
+Output written on TP2.pdf (2 pages, 603360 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 9 named destinations out of 1000 (max. 500000)
- 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 202 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
