@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  8 APR 2020 19:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  11 APR 2020 15:46
 entering extended mode
 **./TP2.tex
 (TP2.tex
@@ -1635,10 +1635,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 205--206
  []
 
 
+Overfull \hbox (60.7848pt too wide) in paragraph at lines 218--325
+[][] 
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
-Overfull \vbox (7.57413pt too high) has occurred while \output is active []
+Overfull \vbox (10.36647pt too high) has occurred while \output is active []
 
 
 [1{C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
@@ -1646,27 +1651,27 @@ Overfull \vbox (7.57413pt too high) has occurred while \output is active []
 \openout7 = `TP2.xdy'.
 
 ]
-<mapCurrentEligible.png, id=29, 642.4pt x 481.8pt>
+<mapCurrentEligible.png, id=30, 642.4pt x 481.8pt>
 File: mapCurrentEligible.png Graphic file (type png)
 <use mapCurrentEligible.png>
 Package pdftex.def Info: mapCurrentEligible.png  used on input line 332.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapEligibleBase.png, id=30, 642.4pt x 481.8pt>
+<mapEligibleBase.png, id=31, 642.4pt x 481.8pt>
 File: mapEligibleBase.png Graphic file (type png)
 <use mapEligibleBase.png>
 Package pdftex.def Info: mapEligibleBase.png  used on input line 337.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapEligibleImproved.png, id=31, 642.4pt x 481.8pt>
+<mapEligibleImproved.png, id=32, 642.4pt x 481.8pt>
 File: mapEligibleImproved.png Graphic file (type png)
 <use mapEligibleImproved.png>
 Package pdftex.def Info: mapEligibleImproved.png  used on input line 342.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapCurrentTotal.png, id=32, 642.4pt x 481.8pt>
+<mapCurrentTotal.png, id=33, 642.4pt x 481.8pt>
 File: mapCurrentTotal.png Graphic file (type png)
 <use mapCurrentTotal.png>
 Package pdftex.def Info: mapCurrentTotal.png  used on input line 349.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapTotalBase.png, id=33, 642.4pt x 481.8pt>
+<mapTotalBase.png, id=34, 642.4pt x 481.8pt>
 File: mapTotalBase.png Graphic file (type png)
 <use mapTotalBase.png>
 Package pdftex.def Info: mapTotalBase.png  used on input line 356.
@@ -1674,7 +1679,7 @@ Package pdftex.def Info: mapTotalBase.png  used on input line 356.
 
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
-<mapTotalImproved.png, id=34, 642.4pt x 481.8pt>
+<mapTotalImproved.png, id=35, 642.4pt x 481.8pt>
 File: mapTotalImproved.png Graphic file (type png)
 <use mapTotalImproved.png>
 Package pdftex.def Info: mapTotalImproved.png  used on input line 362.
@@ -1702,7 +1707,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
 Here is how much of TeX's memory you used:
  44162 strings out of 481556
  996332 string characters out of 2923634
- 1668078 words of memory out of 3000000
+ 1672078 words of memory out of 3000000
  58478 multiletter control sequences out of 15000+200000
  541719 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1715,12 +1720,13 @@ ec/dpi600\ecbx1000.pk> <C:\Users\Huynh\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 s/cm/cmmi10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
 i5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
 :/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Program
- Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiK
-TeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on TP2.pdf (2 pages, 603360 bytes).
+ Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr5.pfb><D:/Program Files/MiK
+TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmsy7.pfb>
+Output written on TP2.pdf (2 pages, 612457 bytes).
 PDF statistics:
- 202 PDF objects out of 1000 (max. 8388607)
+ 205 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 
