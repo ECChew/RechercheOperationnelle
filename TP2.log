@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  11 APR 2020 15:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7300 64-bit) (preloaded format=pdflatex 2020.3.27)  11 APR 2020 17:35
 entering extended mode
 **./TP2.tex
 (TP2.tex
@@ -1603,112 +1603,136 @@ LaTeX Info: Redefining \nameref on input line 195.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 195.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 205
-.
 
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 206
+.
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 205
+LaTeX Font Info:    Trying to load font information for U+msb on input line 206
 .
 
 ("D:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+wasy on input line 20
-5.
+6.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/wasysym\uwasy.fd
 File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
 )
 LaTeX Font Info:    Trying to load font information for OMS+rsfs on input line 
-205.
+206.
 
 (C:\Users\Huynh\AppData\Roaming\MiKTeX\2.9\tex/latex/calrsfs\omsrsfs.fd)
-Underfull \hbox (badness 1983) in paragraph at lines 205--206
-\T1/cmr/m/n/10 pop-u-la-tions but some-times have dou-ble
+Underfull \hbox (badness 1270) in paragraph at lines 213--215
+\T1/cmr/m/n/10 chotomy. By min-i-miz-ing our ob-jec-tive
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 1755) in paragraph at lines 213--215
+\T1/cmr/m/n/10 pop-u-la-tion for each state is im-por-tant.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
 
  []
 
 
-Overfull \hbox (60.7848pt too wide) in paragraph at lines 218--325
+Underfull \hbox (badness 1728) in paragraph at lines 216--217
+[]\T1/cmr/m/n/10 The last con-straint is also ex-tremely
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
+
+ []
+
+
+Overfull \hbox (60.7848pt too wide) in paragraph at lines 233--340
 [][] 
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
-Overfull \vbox (10.36647pt too high) has occurred while \output is active []
-
+LaTeX Warning: Float too large for page by 10.36647pt on input line 340.
 
 [1{C:/Users/Huynh/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 \openout7 = `TP2.xdy'.
 
+] [2
+
 ]
-<mapCurrentEligible.png, id=30, 642.4pt x 481.8pt>
+<mapCurrentEligible.png, id=36, 642.4pt x 481.8pt>
 File: mapCurrentEligible.png Graphic file (type png)
 <use mapCurrentEligible.png>
-Package pdftex.def Info: mapCurrentEligible.png  used on input line 332.
+Package pdftex.def Info: mapCurrentEligible.png  used on input line 347.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapEligibleBase.png, id=31, 642.4pt x 481.8pt>
+<mapEligibleBase.png, id=37, 642.4pt x 481.8pt>
 File: mapEligibleBase.png Graphic file (type png)
 <use mapEligibleBase.png>
-Package pdftex.def Info: mapEligibleBase.png  used on input line 337.
+Package pdftex.def Info: mapEligibleBase.png  used on input line 352.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapEligibleImproved.png, id=32, 642.4pt x 481.8pt>
+<mapEligibleImproved.png, id=38, 642.4pt x 481.8pt>
 File: mapEligibleImproved.png Graphic file (type png)
 <use mapEligibleImproved.png>
-Package pdftex.def Info: mapEligibleImproved.png  used on input line 342.
+Package pdftex.def Info: mapEligibleImproved.png  used on input line 357.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapCurrentTotal.png, id=33, 642.4pt x 481.8pt>
+<mapCurrentTotal.png, id=39, 642.4pt x 481.8pt>
 File: mapCurrentTotal.png Graphic file (type png)
 <use mapCurrentTotal.png>
-Package pdftex.def Info: mapCurrentTotal.png  used on input line 349.
+Package pdftex.def Info: mapCurrentTotal.png  used on input line 364.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
-<mapTotalBase.png, id=34, 642.4pt x 481.8pt>
+<mapTotalBase.png, id=40, 642.4pt x 481.8pt>
 File: mapTotalBase.png Graphic file (type png)
 <use mapTotalBase.png>
-Package pdftex.def Info: mapTotalBase.png  used on input line 356.
+Package pdftex.def Info: mapTotalBase.png  used on input line 371.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
 
 Underfull \vbox (badness 3668) has occurred while \output is active []
 
-<mapTotalImproved.png, id=35, 642.4pt x 481.8pt>
+<mapTotalImproved.png, id=41, 642.4pt x 481.8pt>
 File: mapTotalImproved.png Graphic file (type png)
 <use mapTotalImproved.png>
-Package pdftex.def Info: mapTotalImproved.png  used on input line 362.
+Package pdftex.def Info: mapTotalImproved.png  used on input line 377.
 (pdftex.def)             Requested size: 190.95355pt x 143.21045pt.
 
 
 AED: lastpage setting LastPage
-[2 <./mapCurrentEligible.png (PNG copy)> <./mapEligibleBase.png (PNG copy)> <./
-mapEligibleImproved.png (PNG copy)> <./mapCurrentTotal.png (PNG copy)> <./mapTo
-talBase.png (PNG copy)> <./mapTotalImproved.png (PNG copy)>]
+[3
+
+ <./mapCurrentEligible.png (PNG copy)> <./mapEligibleBase.png (PNG copy)> <./ma
+pEligibleImproved.png (PNG copy)> <./mapCurrentTotal.png (PNG copy)> <./mapTota
+lBase.png (PNG copy)> <./mapTotalImproved.png (PNG copy)>]
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 367.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 367.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 382.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 382.
 (TP2.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 367.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 367.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 382.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 382.
 Package rerunfilecheck Info: File `TP2.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 367.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 382.
  ) 
 Here is how much of TeX's memory you used:
- 44162 strings out of 481556
- 996332 string characters out of 2923634
- 1672078 words of memory out of 3000000
- 58478 multiletter control sequences out of 15000+200000
+ 44163 strings out of 481556
+ 996343 string characters out of 2923634
+ 1679078 words of memory out of 3000000
+ 58477 multiletter control sequences out of 15000+200000
  541719 words of font info for 53 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,14n,136p,1008b,609s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1724,9 +1748,9 @@ i5.pfb><D:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><D:/Program Files/MiKTeX 2.9/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Program Files/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmsy7.pfb>
-Output written on TP2.pdf (2 pages, 612457 bytes).
+Output written on TP2.pdf (3 pages, 621112 bytes).
 PDF statistics:
- 205 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 218 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  43 words of extra memory for PDF output out of 10000 (max. 10000000)
 

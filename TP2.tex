@@ -199,10 +199,25 @@ urlcolor=black}
 		\bfseries TP 2 - Members in the US\\ Electoral College
 	\end{center}
 \section*{General information}
-Population data is from 2016. We chose to use the eligible population as it is more representative of the 2016 Elections.
+Population data is from 2016. We chose to use the eligible population as it is more representative of the 2016 Elections.\\
+
+The US' rules about their Electoral College are rather complicated and the first one we should mention is specific to the 2016 Elections as Puerto Rico was not allowed to take part in the voting process as it is seen as a territory and not a state.
 \section*{Linear Programming problem}
+\begin{equation}
+\begin{cases}
+min\ u-v& \\
+v - \frac{\alpha_i}{x_i}&\leq 0\\
+\frac{\alpha_i}{x_i}- u &\leq 0\\
+\sum\limits_i \alpha_i &= N
+\end{cases}
+\end{equation}
+This LP problem is acts a bit like a dichotomy. By minimizing our objective function $u-v$ which are tool variables, while keeping $u>v$, will diminish the interval where $\frac{\alpha_i}{x_i}$ can be as it is "sandwiching" it. This ratio between the members at the Electoral College and the eligible population for each state is important. Indeed, if for each state, having a small interval for those ratios, meaning that all ratios are nearby one another for every given state will insure that the number of members in the Electoral College is well and evenly spread accordingly to the population of that state.\\
+
+The last constraint is also extremely important as it keeps the sum of those members to that given $N=538$ in the US constitution. The solutions $\alpha_i$ of this LP problem will give us the best distribution of Electoral College seats while focusing \textbf{ONLY} on the number of eligible voters per state and the number of available seats. \\
+
+Other discussions could be made about some other constraints such as adding a minimal number of seats per state (it is currently 3 by US Constitution) but we noticed that even without that constraint, no state has $0$ seats. In order to make it as fair as possible and to avoid large discrepancies between states, we decided to consider to not take the current minimal 3 seats condition into account as this will create a larger variation in seats for states while having a small change in population.
 \section*{Results and optimization}
-\qquad With our problem as stated before, we have a rather disturbing problem as we can see that some states have fairly similar populations but sometimes have double the members in the electoral college. This is particularly obvious when we took at the lower end of the population spectrum where there isn't a lot of population but we might see for example (insert problem with close population but 1 vs 2 members). This is due to a matrix conditioning problem when working on the LP problem as the orders of magnitude vary greatly between $10^{-6}\ (u,\ v)$, $10^0\ (\alpha_i)$ and $10^6\ (x_i)$.\\
+\qquad With our problem as stated before, we have a rather disturbing problem as we can see that some states have fairly similar populations but sometimes have double the members in the electoral college. This is particularly obvious when we took at the lower end of the population spectrum where there isn't a lot of population but we might see. For example, with our first LP, Vermont had a ratio $\frac{\alpha_{Vermont}}{x_{Vermont}}\times10^6=4.041$ while California had $\frac{\alpha_{California}}{x_{California}}\times10^6=2.151$. This is due to a matrix conditioning problem when working on the LP problem as the orders of magnitude vary greatly between $10^{-6}\ (u,\ v)$, $10^0\ (\alpha_i)$ and $10^6\ (x_i)$.\\
 
 Thus, our problem has been slightly modified to :
 \begin{equation}
@@ -213,8 +228,8 @@ Thus, our problem has been slightly modified to :
 	\sum\limits_i \alpha_i &= N
 	\end{cases}
 \end{equation}
-By doing this, we will do some kind of pre-conditioning which will make our results better. With this change, the number of members per state is given by (using the state ANSI abreviations):
-\begin{table}[H]
+By doing this, we will do some kind of pre-conditioning which will make our results better. With this change, the number of members per state is given by :
+\begin{table}
 	\begin{tabular}{|c|c|c|c|}
 	\hline
 	\cellcolor{gray!30} State & \cellcolor{gray!30} \shortstack{Voting \\Population}&\cellcolor{gray!30}\shortstack{Members in\\ Electoral C.}&\cellcolor{gray!30}$\frac{\alpha_i\times 10^6}{x_i}$\\
@@ -324,7 +339,7 @@ By doing this, we will do some kind of pre-conditioning which will make our resu
 	\end{tabular}
 \end{table}
 
-
+\clearpage
 \section*{US Maps}
 
 \begin{figure}[H]
