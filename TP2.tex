@@ -3,9 +3,9 @@
 % Version: 0.2
 % Author: Damien Roque <damien.roque_AT_isae.fr>
 
-\documentclass[a4paper,10pt,calibri,oneside,openany, twocolumn]{report}
+\documentclass[a4paper,9pt,calibri,oneside,openany, twocolumn]{report}
 \usepackage{geometry}
-\setlength{\voffset}{-0.75in}
+
 \setlength{\headsep}{5pt}
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
@@ -201,7 +201,13 @@ urlcolor=black}
 \section*{General information}
 Population data is from 2016. We chose to use the eligible population as it is more representative of the 2016 Elections.\\
 
-The US' rules about their Electoral College are rather complicated and the first one we should mention is specific to the 2016 Elections as Puerto Rico was not allowed to take part in the voting process as it is seen as a territory and not a state.
+The US' rules about their Electoral College are rather complicated and the first one we should mention is specific to the 2016 Elections as Puerto Rico was not allowed to take part in the voting process as it is seen as a territory and not a state.\\
+
+Rules for the US presidential election are very state-oriented and each state's rule may vary greatly, creating a huge amount of constraints that vary greatly between states. For example, most states use a winner-takes-all system which means that having the most votes (it does not have to be the majority aka 50\%) to completely win, it only needs to have the highest percentage a vote. This is a kind of one-turn vote unlike our system in France. The only two exceptions are Nebraska and Maine that have a separate rule.\\
+
+As it would be difficult to take all those exceptions into account, we decided to go with a binary vote meaning that our analysis will consider the situation a second-turn voting with a face off between Hillary Clinton and Donald Trump.\\
+
+Moreover, we decided not to go with the minimal $3$ representatives for each state as it will be mentioned later on.
 \section*{Linear Programming problem}
 \begin{equation}
 \begin{cases}
@@ -216,6 +222,7 @@ This LP problem is acts a bit like a dichotomy. By minimizing our objective func
 The last constraint is also extremely important as it keeps the sum of those members to that given $N=538$ in the US constitution. The solutions $\alpha_i$ of this LP problem will give us the best distribution of Electoral College seats while focusing \textbf{ONLY} on the number of eligible voters per state and the number of available seats. \\
 
 Other discussions could be made about some other constraints such as adding a minimal number of seats per state (it is currently 3 by US Constitution) but we noticed that even without that constraint, no state has $0$ seats. In order to make it as fair as possible and to avoid large discrepancies between states, we decided to consider to not take the current minimal 3 seats condition into account as this will create a larger variation in seats for states while having a small change in population.
+
 \section*{Results and optimization}
 \qquad With our problem as stated before, we have a rather disturbing problem as we can see that some states have fairly similar populations but sometimes have double the members in the electoral college. This is particularly obvious when we took at the lower end of the population spectrum where there isn't a lot of population but we might see. For example, with our first LP, Vermont had a ratio $\frac{\alpha_{Vermont}}{x_{Vermont}}\times10^6=4.041$ while California had $\frac{\alpha_{California}}{x_{California}}\times10^6=2.151$. This is due to a matrix conditioning problem when working on the LP problem as the orders of magnitude vary greatly between $10^{-6}\ (u,\ v)$, $10^0\ (\alpha_i)$ and $10^6\ (x_i)$.\\
 
@@ -228,7 +235,15 @@ Thus, our problem has been slightly modified to :
 	\sum\limits_i \alpha_i &= N
 	\end{cases}
 \end{equation}
-By doing this, we will do some kind of pre-conditioning which will make our results better. With this change, the number of members per state is given by :
+
+By doing this, we will do some kind of pre-conditioning which will make our results better. With this change, the number of members per state is given by the following table.\\
+
+
+Other than the results presented in this report, we tried various other alternative solutions and situations by, for example, using the whole population instead of the number of voters and, we also tried to set the number of minimal seats per state to be $3$ as the US Constitution currently amends it. All those results ended up with the same global outcome. Even though the number of seats won by the Republican candidate varied depending on the method, those numbers were always superior to $\frac N2 = 269$, making Donald Trump the winner in any case we explored with this Electoral College system.\\
+
+Although we are in no position to judge a country's system, we are tempted to say that the voting mode with the Electoral College performs, democratically speaking, very poorly from our point of view as in reality, Donald Trump had less votes (from the population) but managed to get more "impactful" votes giving him the edge in this election.\\
+
+This implies that the US presidential election system gives, unintentionally, more power and importance to the votes of some people over others.
 \begin{table}
 	\begin{tabular}{|c|c|c|c|}
 	\hline
